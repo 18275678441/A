@@ -1,0 +1,9 @@
+<view>{{jump}}</view> <button class="mini-btn" type="default" size="default" plain="false" bindtap="btn" >搜索</button>
+<view wx:for="{{ne}}" wx:for-index="idx" wx:for-item="card">
+  <view wx:if="{{idx<1}}">
+    金豆:{{card.card}}
+  </view>
+  <view wx:if="{{idx<1}}">
+    信誉积分：{{card.card}}
+  </view>
+</view>

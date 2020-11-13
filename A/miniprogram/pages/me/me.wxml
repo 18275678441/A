@@ -1,0 +1,4 @@
+<!--pages/me/me.wxml-->
+<view>{{jump}}</view> <button class="mini-btn" type="default" size="mini"  bindtap="btn1" >签到</button>
+<view>{{jump}}</view> <button class="mini-btn" type="default" size="mini"  plain="false" bindtap="btn2" >我要帮助</button>
+ 
